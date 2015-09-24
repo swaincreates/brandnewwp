@@ -5,6 +5,7 @@
 %x( rmdir wordpress/ )
 %x( cp wp-config-sample.php wp-config.php )
 %x( mv brandnewtheme/ wp-content/themes )
+%x( mv wp-sync* wp-content/plugins)
 %x( rm -rf wp-content/themes/brandnewtheme/.git )
 %x( git init )
 %x( rm prepare.rb )

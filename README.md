@@ -2,7 +2,7 @@
 # WordPress Starter
 
 
-A simple but comprehensive wordpress installation setup
+A simple but comprehensive wordpress installation setup that keeps the standard WordPress structure
 
 * Capistrano for deploying code
 * Theme based off of Automattic's _s theme but with bootstrap and gulp
@@ -10,7 +10,14 @@ A simple but comprehensive wordpress installation setup
 
 ## Installation
 
-To get started:
+#### Dependencies
+
+* OSX/Linux
+* Ruby
+* Curl
+* Tar
+
+#### Install
 
 1. Clone repo using `git clone --recursive` into your directory to download with submodules
 2. Run `ruby prepare.rb` to delete git files and move wordpress to root directory
