@@ -1,0 +1,9 @@
+[submodule "brandnewtheme"]
+	path = brandnewtheme
+	url = git@github.com:swaincreates/brandnewtheme.git
+[submodule "wp-sync-db"]
+	path = wp-sync-db
+	url = https://github.com/wp-sync-db/wp-sync-db.git
+[submodule "wp-sync-db-media-files"]
+	path = wp-sync-db-media-files
+	url = https://github.com/wp-sync-db/wp-sync-db-media-files.git
