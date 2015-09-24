@@ -1,3 +1,5 @@
+# Do this in Ruby to test stop people before they get to Deployment
+
 %x( rm -rf .git .gitmodules )
 %x( curl -O https://wordpress.org/latest.tar.gz )
 %x( tar -xvzf latest.tar.gz )

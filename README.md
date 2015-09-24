@@ -2,9 +2,9 @@
 # WordPress Starter
 
 
-A simple but comprehensive wordpress installation setup that keeps the standard WordPress structure
+A simple but comprehensive wordpress installation setup that keeps the standard WordPress structure.
 
-* Capistrano for deploying code
+* Capistrano for deploying WordPress site (minus uploads and database)
 * Theme based off of Automattic's _s theme but with bootstrap and gulp
 * WP-Sync-DB Plugins for cyncing DB and Uploads
 
@@ -28,7 +28,6 @@ A simple but comprehensive wordpress installation setup that keeps the standard 
 ## Usage
 
 Configure the Capistrano files in config. Run `bundle exec cap dev deploy` to deploy to your development server
-
 
 ### To Do List
 
